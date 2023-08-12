@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #212529;
+}
+:root{
+    --primary: #fefbf6;
+    --primary-text: #fe9d02;
+    --contrast-color: #2E3C7E;
+    --secondary: #ffffff;
+}
+
+
+/*Main container home banner section*/
+.home-banner{
+    background-image: url("https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/6304add74196c78df9b4f710/webp/mystore-seller-page-banner-1.jpg");
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    max-height: 530px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.heading-tab h2{
+    font-weight: 200;
+}
+.heading-tab span{
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+.caption-content{
+    padding: 0px !important;
+}
+.banner-heading{
+    line-height: 1.6;
+}
+.banner-heading span{
+    font-weight: 400;
+    color: var(--contrast-color);
+}
+.banner-subHeading{
+    font-weight: 300;
+}
+.auto-submit{
+    width: 23% !important;
+    background-color: var(--contrast-color);
+    font-size: 0.9rem;
+}
+
+
+/*About Store Section*/
+.brand-carousel{
+    padding: 0px;
+}
+.about-store{
+    padding: 0px;
+}
+.heading-tab{
+    text-align: center;
+}
+.img-fluid{
+    max-width: 50px;
+}
+.img-fluid img{
+    width: 100%;
+    height: 100%;
+}
+.features-card-1{
+    height: 300px;
+    max-height: 600px !important;
+    padding:35px;
+    background-color:  var(--primary);
+}
+.features-card-1 h5{
+    color: var(--primary-text);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.features-card-1 span{
+    font-size: 0.9rem !important;
+}
+
+
+
+
+/*Brand Carousel Section*/
+.brandCarousel{
+    padding: 50px;
+    padding-bottom:  0px !important;
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0px;
+}
+.carousel .item {
+	color: #747d89;
+	min-height: 125px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .thumb-wrapper {
+	padding: 0px !important;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+}
+.company-header-avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 150%;
+    background-clip: padding-box;
+    margin: 7px 0 0 5px;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 10px 8px 0 rgba(68, 68, 68, 0.2), 0 6px 20px 0 rgba(68, 68, 68, 0.2);
+    -webkit-border-radius: 150%;
+    -moz-border-radius: 150%;
+    -ms-border-radius: 150%;
+    -o-border-radius: 150%;
+}
+.thumb-content h4 {
+	font-size: 15px !important;
+}
+.carousel .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    height: 44px;
+    width: 40px;
+    background: #fbfbfb;
+    margin: auto 0;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-decoration: none;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    color:#212529;
+    font-weight: bold;
+    border-radius: 100px;
+}
+.carousel .carousel-control:hover {
+	background: #78bf00;
+	opacity: 1;
+}
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -4px;
+}
+
+
+
+/*Steps Onboarding CSS*/
+.akcontainer7{
+    background-color: var(--primary);
+    padding: 70px 0px;
+  }
+  .ak-SRF-Steps-div h5{
+    text-align: center;
+    background-color: #ff9e30;
+    width: 60px;
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+  .ak-SRF-Steps-div h4{
+    color: #f18407;
+    font-weight: 400;
+    font-size: 0.9rem !important;
+  }
+  .ak-SRF-Steps-div  span{
+    font-size: 0.9rem !important;
+  }
+  
+
+
+  /*About Platform*/
+  .about-platform-info{
+    padding: 50px;
+    background-color: var(--primary);;
+  }
+  .about-platform-title{
+    padding: 50px;
+    padding-left: 200px;
+    background-color: inherit;
+  }
+  .about-platform-title-details{
+    display: flex;
+    justify-content: start !important;
+    align-items: center !important;
+    height: 330px;
+  }
+  .about-platform-title-heading{
+    width: 420px;
+  }
+  .about-platform-title-heading h2{
+    font-weight: 300;
+  }
+  .about-platform-title-heading span{
+    font-weight: 200;
+  }
+
+.about-platform-info-icon{
+    max-width: 60px;
+}
+.about-platform-info-icon img{
+    width: 120%;
+}
+.about-platform-info-text h4{
+    font-weight: 300 !important;
+    color: var(--primary-text);
+}
+.about-platform-info-text h4, h5{
+   font-size: 1rem; 
+   font-weight: 200;
+}
+
+
+
+/*Inegrations section */
+.integrations-section{
+    margin-top: 100px !important;
+}
+.integrations-section{
+    background-color: var(--primary);
+    padding: 100px;
+    padding-bottom: 0px !important;
+}
+.integrations-section-img-col{
+    max-width: 60px;
+}
+.integrations-section-img-col img{
+    width: 90%;
+}
+.integrations-section .about-platform-info-text h4{
+    font-size: 1.2rem !important;
+}
+.integrations-section-first-column-box{
+    background-color: var(--secondary);
+    padding: 27px;
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.integrations-section-column-section{
+    position: relative;
+    bottom: 150px;
+}
+.integrations-section-column-section{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+.integrations-section .about-platform-title{
+    padding-left: 100px !important;
+}
+
+
+
+/*About platform 2 start */
+.about-platform-2 .about-platform-info{
+    background-color: transparent;
+}
+.about-platform-2 .about-platform-title{
+    padding-top: 100px;
+}
+.about-platform-2 .about-platform-info-details{
+    border: 1px solid var(--primary-text);
+    border-radius: 10px;
+    padding: 50px;
+}
+.about-platform-2 .about-platform-info-text h4{
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+    color: var(--primary-text);
+}
+.about-platform-2 .about-platform-info-text h5, ul{
+    font-size: 1rem;
+    font-weight: 300 !important;
+}
+
+/*Tech Section CSS Starts*/
+.tech-section{
+    background-color: var(--primary);
+}
+.tech-section .about-platform-info{
+    background-color: transparent;
+}
+.tech-section-btn{
+    text-align: center;
+}
+.tech-section-btn .btn{
+    background-color: transparent !important;
+    color: #010101;
+    width: 34%;
+    border: 2.5px solid var(--primary-text);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.tech-section-btn .btn:hover{
+    background-color: #fe9d02 !important;
+    transition: 0ms !important;
+    color: var(--primary);
+}
+
+
+/*FAQ Section CSS*/
+.ak-SRF-FAQ-container{
+    padding: 20px 200px;
+  }
+  .ak-SRF-FAQ-container .card{
+    padding: 10px !important;
+    background-color:  #FDFDFD !important;
+    box-shadow: none;
+  }
+  .ak-SRF-FAQ-container  h2{
+    font-weight: 300 !important;
+  }
+  .ak-SRF-FAQ-container  p{
+    text-decoration: none !important;
+  }
+  .ak-SRF-FAQ-container .fa,
+    .fas {
+      font-family: 'FontAwesome';
+      font-weight: 400;
+      font-size: 1.2rem;
+      font-style: normal;
+    }
+    
+    .ak-SRF-FAQ-container .right-0 {
+      right: 0;
+    }
+    
+   .ak-SRF-FAQ-container .top-0 {
+      top: 0;
+    }
+    
+    .ak-SRF-FAQ-container .h-100 {
+      height: 100%;
+    }
+    
+    .ak-SRF-FAQ-container a.text-secondary:focus,
+    a.text-secondary:hover {
+      text-decoration: none;
+      color: #fac506 !important;
+    }
+    
+    .ak-SRF-FAQ-container #accordion .fa-plus {
+      transition: -webkit-transform 0.25s ease-in-out;
+      transition: transform 0.25s ease-in-out;
+      transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    }
+    
+    .ak-SRF-FAQ-container #accordion a[aria-expanded=true] .fa-plus {
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
