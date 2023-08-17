@@ -43,7 +43,7 @@ body{
     font-weight: 300;
 }
 .auto-submit{
-    width: 23% !important;
+    width: 23% auto !important;
     background-color: var(--contrast-color);
     font-size: 0.9rem;
 }
@@ -229,7 +229,7 @@ body{
     font-weight: 300 !important;
     color: var(--primary-text);
 }
-.about-platform-info-text h4, h5{
+.about-platform-info-text :is(h4, h5){
    font-size: 1rem; 
    font-weight: 200;
 }
@@ -291,7 +291,7 @@ body{
     font-weight: 300 !important;
     color: var(--primary-text);
 }
-.about-platform-2 .about-platform-info-text h5, ul{
+.about-platform-2 .about-platform-info-text :is(h5, ul){
     font-size: 1rem;
     font-weight: 300 !important;
 }
@@ -314,7 +314,7 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
-.tech-section-btn .btn:hover{
+.tech-section-btn .btn:hover {
     background-color: #fe9d02 !important;
     transition: 0ms !important;
     color: var(--primary);
@@ -371,4 +371,81 @@ body{
     .ak-SRF-FAQ-container #accordion a[aria-expanded=true] .fa-plus {
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
+    }
+
+    .faq{
+      display: none;
+    }
+    
+    
+    
+    
+    
+    /*Mobile Section Start*/
+    
+    @media only screen and (max-width: 480px){
+          .about-platform-title{
+            padding-left: 20px !important;
+          }
+          .about-platform-title-heading{
+            width: 100%;
+          }
+          .tech-section-btn .btn{
+            width: 100%;
+          }
+          .about-platform-title{
+            padding-bottom: 0px !important;
+          }
+          .about-platform-info{
+            padding-top: 0px !important;
+          }
+          .integrations-section .about-platform-title{
+            width: 100%;
+            padding-left: 20px !important;
+            padding: 20px;
+          }
+          .integrations-section{
+            padding: 0px ;
+          }
+          .integrations-section-column-section{
+            position: static;
+          }
+
+          .ak-SRF-FAQ-container{
+            display: none;
+          }
+
+
+.faq{
+  display: block;
+}    
+.faq_header-title{
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-text);
+  margin-bottom: 30px;
+}
+
+.faq__panel{
+  padding: 7px 21px;
+  margin-bottom: 20px;
+  border: 1px solid var(--primary-text);;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.faq__label{
+  padding-block: 7px;
+  color: #000000;
+  cursor: pointer;
+}
+.faq__panel-answer{
+  color: #777e91;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.faq:has(p) > .faq__panel-body{
+background-color: #010101 !important;
+}
     }
